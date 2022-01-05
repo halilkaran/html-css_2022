@@ -1,0 +1,15 @@
+.par1 {
+  color: salmon;
+  font-size: 25px;
+  margin: 10px;
+}
+.fiyat-etiket {
+  color: blueviolet;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+}
+#fiyat {
+  color: red;
+  font-weight: 900;
+}

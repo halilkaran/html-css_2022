@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formlar</title>
+  </head>
+  <body>
+    <h1>FORMLAR</h1>
+    <div>
+      <form action="result.html" method="get">
+        <!-- TEXT -->
+        <div>
+          <label for="ad">AD:</label> <br />
+          <input
+            id="ad"
+            type="text"
+            name="isim"
+            value=""
+            placeholder="Lütfen isim giriniz"
+          />
+          <br />
+          <label for="soyad">SOYAD:</label> <br />
+          <input
+            id="soyad"
+            type="text"
+            name="soyisim"
+            value=""
+            placeholder="Lütfen soyisim giriniz"
+          />
+          <br />
+        </div>
+
+        <!-- PASSWORD -->
+        <div>
+          <label for="parola">ŞİFRE</label> <br />
+          <input
+            id="parola"
+            type="password"
+            name="password"
+            value=""
+            minlength="4"
+            maxlength="8"
+            placeholder="Lütfen Password giriniz"
+          />
+        </div>
+
+        <!-- RADIO BUTTON -->
+        <div>
+          <label>CİNSİYET</label> <br />
+          <label for="erkek">Erkek</label>
+          <input type="radio" name="cinsiyet" id="erkek" value="erkek" />
+          <label for="kadın">Kadın</label>
+          <input type="radio" name="cinsiyet" id="kadın" value="kadın" />
+          <label for="none">None</label>
+          <input type="radio" name="cinsiyet" id="none" value="none" checked />
+        </div>
+
+        <!-- CHECKBOX -->
+        <div>
+          <label for="">LÜTFEN FAVORİ ARABALARINIZI SEÇİNİZ</label><br />
+          <label for="bmw">BMW</label>
+          <input type="checkbox" name="araba1" id="bmw" value="bmw" />
+          <label for="mercedes">Mercedes</label>
+          <input type="checkbox" name="araba2" id="mercedes" value="mercedes" />
+          <label for="audi">Audi</label>
+          <input type="checkbox" name="araba3" id="audi" value="audi" />
+        </div>
+
+        <div>
+          <label for="yaş">YAŞ:</label> <br />
+          <input
+            type="number"
+            name="yaş"
+            id="yaş"
+            value="0"
+            max="100"
+            step="2"
+          />
+        </div>
+
+        <!-- SEARCH -->
+        <div>
+          <label for="ara">ARA</label> <br />
+          <input type="search" name="aranan" id="ara" />
+          <input type="button" value="Search" />
+        </div>
+
+        <!-- COLOR -->
+        <div>
+          <label for="renk">RENK:</label>
+          <input type="color" name="renk" id="renk" />
+        </div>
+
+        <!-- DATE -->
+        <div>
+          <label for="tarih">TARİH:</label>
+          <input
+            type="date"
+            name="tarih"
+            id="tarih"
+            min="2000-01-01"
+            max="2023-01-01"
+          />
+        </div>
+
+        <!-- EMAIL -->
+        <div>
+          <label for="email">EMAIL</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@example.com"
+          />
+        </div>
+
+        <!-- FILE -->
+        <div>
+          <label for="dosya">Dosya Yükleyiniz:</label> <br />
+          <input type="file" name="dosya" id="dosya" multiple />
+        </div>
+
+        <!-- TEL -->
+        <div>
+          <label for="tel">TEL</label> <br />
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            placeholder="555-555-55-55"
+          />
+        </div>
+
+        <!-- SELECT-OPTGROUP -->
+        <div>
+          <label for="tatlı">Hangi Tatlıyı Seversiniz?</label>
+          <br />
+          <select name="tatlı" id="tatlı">
+            <optgroup label="Şerbetli Tatlılar">
+              <option value="künefe">Künefe</option>
+              <option value="sarma">Sarma</option>
+              <option value="havuç-dilimi">Havuç Dilimi</option>
+              <option value="kadayıf dolması">Kadayıf Dolma</option>
+            </optgroup>
+
+            <optgroup label="Sütlü Tatlılar">
+              <option value="muhallebi">Muhallebi</option>
+              <option value="kazandibi">Kazandibi</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <!-- TEXTAREA -->
+        <div>
+          <label for="yorum">Yorumlarınızı Giriniz:</label>
+          <br />
+          <textarea
+            name="yorum"
+            id="yorum"
+            cols="10"
+            rows="10"
+            style="resize: none"
+            maxlength="100"
+            placeholder="En fazla 100 karakter girilebilir"
+          ></textarea>
+        </div>
+
+        <!-- DATALIST -->
+        <div>
+          <label for="fav">Favori Dondurmanız?</label> <br />
+          <input list="dondurmalar" id="fav" name="fav-dondurma" />
+          <datalist id="dondurmalar">
+            <option value="Çokolatalı"></option>
+            <option value="Limonlu"></option>
+            <option value="Çilekli"></option>
+            <option value="Fıstıklı"></option>
+            <option value="Valinya"></option>
+          </datalist>
+        </div>
+
+        <!-- FIELDSET -->
+        <div>
+          <fieldset>
+            <legend>Favori Diliniz:</legend>
+            <input type="radio" name="dil" id="js" value="js" />
+            <label for="js">Javascript</label> <br />
+            <input type="radio" name="dil" id="py" value="pyhton" />
+            <label for="py">Phyton</label> <br />
+            <input type="radio" name="dil" id="c++" value="c++" />
+            <label for="c++">C++</label> <br />
+          </fieldset>
+        </div>
+
+        <!-- BUTTONLAR -->
+        <div>
+          <input type="submit" value="Gönder" />
+          <input type="reset" />
+          <input type="button" value="Kaydet" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
