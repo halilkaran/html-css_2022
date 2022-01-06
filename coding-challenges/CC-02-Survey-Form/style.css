@@ -1,0 +1,48 @@
+h1{
+    font-size: 50px;
+    border-top: 1px solid ;
+    left: 100px;
+    right: 500px;
+    width: 550px;
+    margin-bottom: 5px;
+
+}
+label{
+    font-size:20px;
+    border: 5px;
+    margin: 10px 10px 10px 0px;
+    padding: 10px 10px 10px 0px;
+
+}
+.a{
+    font-size:  14px;
+    border: 5px;
+    margin: 10px 10px 10px 0px;
+    padding: 10px 10px 10px 0px;}
+.b{
+    font-size:  29px;
+    border: 5px;
+    margin: 10px 10px 10px 0px;
+    padding: 10px 10px 10px 0px;}
+input {
+    
+    border: 1px solid;
+    margin: 10px 10px 10px 0px;
+    padding: 10px 10px 10px 0px;
+}
+select {
+    border: 1px solid;
+    margin: 10px 10px 10px 0px;
+    padding: 10px 10px 10px 0px;
+}
+textarea {
+    border: 1px solid;
+     
+    margin: 10px 0px 0px 0px;
+    padding: 10px 10px 10px 0px;
+}
+.abs {
+margin: 0px;
+padding: 3px;    
+    
+}

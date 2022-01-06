@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formlar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+  
+    <h1>Clarusway Survey Form</h1>
+    Thank you for taking the time to help us improve the platform
+</div>
+   
+    <div>
+        <p></p>
+    <form action="result.html" method="get">
+        <label class="a" for="ad">Name  </label><br> <p></p>
+        <input 
+        id="ad" 
+        type="text" 
+        name="isim" 
+        placeholder="Enter your name" 
+         
+        /> <br>
+        <label class="a" for="soyad">Surname </label><br>
+        <p></p>
+        <input 
+        id="soyad" 
+        type="text" 
+        name="soyisim" 
+        placeholder="Enter your name"
+         
+        /> <br>
+
+<label class="a" for="email">E-Mail</label><br> <p></p>
+    <input 
+    type="email"
+     name="email" 
+     id="email"
+     placeholder="user@clarusway.com">
+<div>
+<div>
+    <label class="b" for="Role" > Which option best describes your current role?</label><br>
+    <select name="Role" id="Role" placeholder="Select current Role">
+        
+            <option value="Role"> Select current Role</option>
+            <option value="teacher">Teacher</option>
+            <option value="sutedent">Student</option>
+       
+    </select>
+<br>
+ <label class="b" for="parola">Would  you recommend Clarusway to a friend?
+ </label> <br>
+<input type="radio" name="yes"  id = "yes" value = "yes">
+<label for="yes">Definitely, Yes</label> <br>
+<input type="radio"  id="maybe" value="maybe">
+<label for="maybe">Maybe
+</label><br>
+<input type="radio" name="not" id="not" value="not sure" >
+<label for="not">Not sure
+</label><br>
+<input type="radio" name="no" id="no" value="no definitely" >
+<label for="not">Definitely, No
+</label><br>
+ <label class="b" for="fav">What is your favorite feature of clarusway?</label> <br>
+<select name="fav" id="fav" placeholder="Select current Role">
+   
+        <option value="e">Select an option</option>
+        <option value="e">teamwork</option>
+        
+   </select><br>
+
+ <label  class="b" for=""> What would you like to see improved?(Check all that apply)</label><br>
+<input type="checkbox" name=" f" id="f" value="f"  >
+<label for="f">Front-end Project</label><br>
+<input type="checkbox" name="b" id="b" value="b"  >
+<label for="b">Back-end Projects</label><br>
+<input type="checkbox" name="d" id="d" value="d"  >
+<label for="d">Data Science</label><br>
+<input type="checkbox" name="add" id="add" value="add"  >
+<label for="add">Additional Course</label><br>
+
+  <label  class="b" for="">Any comments or suggestions?</label><br>
+     <textarea 
+        name="yorum"
+        id="yorum"
+        cols="30" 
+        rows="10"
+        placeholder="Yorumunuz icin Tesekkürler!"
+        style="resize:none; width:120px; height: 30px;"
+        maxlength="100"
+        ></textarea>
+        <input  class="abs" type="submit" value="absend" >
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
