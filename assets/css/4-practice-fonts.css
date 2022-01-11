@@ -1,0 +1,16 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.menu {
+  background-color: lightgray;
+  width: 6rem;
+  text-align: center;
+}
+.aktif {
+  background-color: rgb(48, 42, 42);
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: italic;
+}

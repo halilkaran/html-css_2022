@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIV-SPAN</title>
+    <style>
+      .img {
+        border: 1px solid red;
+        width: 50%;
+      }
+      .row1 {
+        padding: 0;
+        border: 2px dotted blue;
+        overflow: hidden;
+        display: flex;
+      }
+      .row2 {
+        border: 2px double aqua;
+      }
+      .yazilar {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: blueviolet;
+      }
+      .fiyat {
+        color: red;
+      }
+      .etiket {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>DIV-SPAN</h1>
+    <div class="img">
+      <div class="row1">
+        <img src="./assets/winter1.jpg" alt="winter image" width="30%" />
+        <img src="./assets/winter2.webp" alt="winter image" width="30%" />
+      </div>
+
+      <div class="row2">
+        <img
+          src="https://cdn.pixabay.com/photo/2019/12/01/18/26/celebration-4666137__340.jpg"
+          alt="chrismay day"
+          width="30%"
+        />
+      </div>
+      <p>Şekil 1. Kış manzaraları</p>
+    </div>
+
+    <div class="yazilar">
+      <p class="etiket">Fiyatlar: <span class="fiyat">500TL</span></p>
+      <p>Ürünler</p>
+    </div>
+  </body>
+</html>

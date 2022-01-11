@@ -1,0 +1,39 @@
+* {
+  /* margin: 0; */
+  font-size: 1rem;
+}
+
+.div1 {
+  width: 500px;
+  background-color: coral;
+}
+
+.div2 {
+  width: 50%;
+  background-color: cornflowerblue;
+}
+.div3 {
+  width: 50%;
+  background-color: yellowgreen;
+}
+.div4 {
+  width: 50vw;
+  height: 50vh;
+  background-color: pink;
+}
+
+.div5 {
+  font-size: 1em;
+}
+.div6 {
+  font-size: 3em;
+}
+.div7 {
+  font-size: 0.5em;
+}
+.div8 {
+  font-size: 2rem;
+}
+.div9 {
+  font-size: 3rem;
+}

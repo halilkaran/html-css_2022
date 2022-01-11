@@ -1,0 +1,32 @@
+* {
+  font-family: Roboto;
+  color: white;
+}
+nav.menu {
+  background-color: gray;
+  text-align: left;
+  width: 8rem;
+}
+nav.menu .list .aktif {
+  background-color: rgb(8, 7, 7);
+}
+nav.menu .list .aktif:hover {
+  background-color: red;
+}
+
+nav.menu .list {
+  list-style-position: inside;
+  list-style-type: '✅';
+  padding: 0;
+}
+nav.menu .list a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+nav.menu li:hover {
+  background-color: red;
+}
+nav.menu a:hover {
+  color: yellow;
+}

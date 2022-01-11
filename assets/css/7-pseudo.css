@@ -1,0 +1,37 @@
+ul.liste li {
+  list-style-type: none;
+  background-color: rgb(201, 18, 201);
+}
+
+ul.liste li:nth-child(odd) {
+  background-color: thistle;
+  color: rgb(252, 252, 30);
+}
+
+ul.liste li:first-child {
+  font-weight: 900;
+}
+
+ul.liste li:last-child {
+  font-style: italic;
+}
+
+ul.liste li:nth-child(3) {
+  color: red;
+}
+
+ul.liste li::before,
+ul.liste li::after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f004';
+}
+
+ul.liste li:nth-child(3)::after,
+ul.liste li:nth-child(3)::before {
+  content: '🎗️';
+}
+h2 {
+  font-size: 1.2rem;
+  color: red;
+}
