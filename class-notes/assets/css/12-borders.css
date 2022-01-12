@@ -1,0 +1,47 @@
+.container {
+  margin: 1rem;
+}
+.msg {
+  margin: 1rem;
+  padding: 0.3rem;
+}
+
+.msg1 {
+  border: 2px solid blue;
+}
+
+.msg2 {
+  border: 2px dotted tomato;
+}
+
+.msg3 {
+  border-left: 2px solid pink;
+  border-right: 2px solid red;
+}
+
+.msg4 {
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+}
+
+.msg5 {
+  background-image: linear-gradient(white, green);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.msg6 {
+  background-image: linear-gradient(white, green);
+  border: 2px solid black;
+  border-radius: 30%;
+}
+
+.msg7 {
+  padding: 2rem;
+  display: inline-block;
+  background-color: rgb(244, 240, 255);
+  border: 2px solid black;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}

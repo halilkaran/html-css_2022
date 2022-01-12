@@ -1,0 +1,48 @@
+* {
+  font-family: Roboto;
+}
+
+/**************** YATAY MENU ***************/
+nav.yatay-menu ul {
+  list-style-type: none;
+}
+
+nav.yatay-menu ul li {
+  text-align: center;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav.yatay-menu ul li a {
+  text-decoration: none;
+  background-color: bisque;
+  padding: 1rem;
+  display: inline-block;
+  width: 6rem;
+}
+
+nav.yatay-menu ul li a {
+  color: black;
+}
+/* 
+nav.yatay-menu ul li a:link,
+nav.yatay-menu ul li a:visited {
+  color: black;
+} */
+
+nav.yatay-menu ul a:hover {
+  background-color: coral;
+  color: white;
+}
+
+/*************** AÇILIR MENU **************/
+nav.acilir-menu {
+  width: 3rem;
+}
+nav.acilir-menu ul {
+  display: none;
+}
+
+nav.acilir-menu:hover ul {
+  display: block;
+}

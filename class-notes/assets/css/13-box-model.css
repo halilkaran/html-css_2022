@@ -1,0 +1,10 @@
+div.box {
+  font-size: 2rem;
+  text-align: center;
+  width: 300px;
+  background-color: burlywood;
+  border: 15px solid red;
+  padding: 50px;
+  margin: 20px;
+  box-sizing: border-box;
+}

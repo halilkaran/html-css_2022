@@ -1,0 +1,14 @@
+.banner {
+  height: 70vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+}
+
+.banner1 {
+  background-image: url('../img/tree.webp');
+}
+
+.banner2 {
+  background-image: url('../img/winter1.jpg');
+}

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  font-family: Roboto;
+  box-sizing: border-box;
+  color: aliceblue;
+  text-align: center;
+}
+
+header.banner .bg {
+  background-image: url('../img/tree.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  min-height: 20rem;
+  background-position: center center;
+  padding: 1rem;
+}
+
+header.banner .bg h1 {
+  font-size: 3rem;
+}
+header.banner .bg p {
+  font-size: 1.5rem;
+}
+header.banner .butonlar span {
+  display: inline-block;
+  background-color: grey;
+  width: 5vw;
+  height: 1vh;
+  margin: 1rem;
+}

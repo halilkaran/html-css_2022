@@ -1,0 +1,73 @@
+*{
+ margin: 0;
+ padding: 0;
+
+}
+html{
+ font-size: 16px;
+}
+body{
+ background-image: url(/assets/images/background_image.jpg);
+ color: white;
+}
+#form-container{
+ background-color: rgba(0, 0, 0, 0.3);
+ max-width: 1240px;
+ margin:auto;
+ margin-top:40px;
+
+}
+#form-header {
+ text-align: center;
+}
+#form-title{
+ color: white;
+ font-size: 3.2rem;
+ letter-spacing:4px;
+}
+#flix{
+ color: red;
+}
+#form-description{
+ font-size: 1.5rem;
+}
+#netfix-form-container{
+ width: 40%;
+ margin: auto;
+ padding: 25px;
+ background-color: rgba(0, 0, 0, 0.8);
+}
+#survey-form{
+ width:90%;
+ margin: auto;
+ font-size:1.2rem;
+}
+#name, #age, #email, #dropdown, #feedback{
+ width:100%;
+ margin-top: 5px;
+ padding: 10px 10px;
+}
+#submit-button{
+ text-align: center;
+}
+
+button{
+ background-color: red;
+ width: 30% ;
+ height: 30px;
+ color: white;
+ cursor: pointer; 
+ border-radius: 20px;
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
