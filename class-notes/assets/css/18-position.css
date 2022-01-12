@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 10vw;
+  height: 10vh;
+}
+
+/*Relative'de bulunduğu yere göre konum belirlenebilir*/
+.box1 {
+  position: relative;
+  background-color: aquamarine;
+  left: 2rem;
+  top: 3rem;
+  z-index: 1;
+}
+/* z-index ile bir element'i diğerinin üzerine koyabilmek için o elementlerin position'ları static olMAMAlıdır.*/
+
+.box2 {
+  position: absolute;
+  background-color: blueviolet;
+  top: 3rem;
+  z-index: 0;
+  left: 4rem;
+}
+.box3-container {
+  width: 15vw;
+  height: 15vh;
+  border: 1px solid red;
+  position: absolute; /*relative*/
+  top: 1rem;
+  right: 1rem;
+}
+
+.box3 {
+  position: absolute;
+  background-color: coral;
+  top: 1rem;
+  left: 1rem;
+}
+
+.box4 {
+  position: fixed;
+  background-color: darkcyan;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.box5 {
+  background-color: pink;
+  position: sticky;
+  top: 0;
+  margin: 1rem auto;
+}

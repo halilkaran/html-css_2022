@@ -1,0 +1,29 @@
+.box {
+  border: 2px solid red;
+  height: 5rem;
+  width: 20rem;
+  margin-bottom: 10rem;
+}
+
+.first {
+  overflow: visible;
+}
+.second {
+  overflow: hidden;
+}
+
+.third {
+  overflow: scroll;
+}
+
+.fourth {
+  overflow: auto;
+}
+
+.fifth {
+  overflow-x: scroll;
+}
+
+.par {
+  width: 80rem;
+}
