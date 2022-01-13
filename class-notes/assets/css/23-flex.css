@@ -1,0 +1,29 @@
+body {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row; /* row-reverse,column vb*/
+}
+
+.container div {
+  width: 5vw;
+  height: 5vh;
+  background-color: tomato;
+  margin: 1rem;
+  /* margin: 1rem auto;*/
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul li {
+  width: 4rem;
+  height: 4rem;
+  background-color: violet;
+  margin: 1rem;
+}
