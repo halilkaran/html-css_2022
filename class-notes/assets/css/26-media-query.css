@@ -1,0 +1,103 @@
+@import 'color-theme.css';
+
+* {
+  box-sizing: border-box;
+  font-family: var(--ff-monteserrat);
+  font-weight: 500;
+}
+
+body {
+  background-color: var(--mavi-9);
+  color: var(--siyah);
+}
+
+h1 {
+  background-color: var(--koyu-kırmızı);
+  width: 300px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.header {
+  background-color: var(--koyu-yeşil);
+  padding: 20px;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  background-color: var(--gri-3);
+}
+.navbar a {
+  display: block;
+  color: var(--beyaz);
+  padding: 15px 20px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: var(--gri-7);
+  color: var(--siyah);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+}
+.col {
+  padding: 20px;
+}
+
+.col-1 {
+  width: 35%;
+  background-color: var(--gri-5);
+}
+.col-2 {
+  width: 20%;
+  background-color: var(--gri-6);
+}
+.col-3 {
+  width: 30%;
+  background-color: var(--gri-7);
+}
+.col-4 {
+  width: 15%;
+  background-color: var(--gri-8);
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: var(--açık-kırmızı);
+    color: var(--beyaz);
+  }
+  .col {
+    width: 50%;
+    margin: 0.5rem 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: var(--mor-1);
+    color: var(--beyaz);
+  }
+  .header {
+    display: none;
+  }
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .col {
+    width: 90%;
+  }
+  .row {
+    justify-content: center;
+  }
+}

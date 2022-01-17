@@ -1,0 +1,61 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /** 1fr 1fr 1fr 1fr */
+  grid-template-rows: repeat(4, 20vh) 10vh 5vh 5vh;
+  gap: 10px 5px;
+
+  /*!container seviyesindeki hizalamalar içerikleri değil item'ları hizlar.*/
+
+  /*?itemları yatayda hizlamak için */
+  /* justify-items: center; * start | end | center | stretch */
+
+  /*? itemları dikeyde hizalamak için */
+  /* align-items: center; * start | end | center | stretch */
+}
+/*! Grid Container içerisindeki item'lara Flex özelliği kazandırılabilir.Böylece item'ların içerisindeki content'lerin yatay ve dikey hizalaması yapılabilir. */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellowgreen;
+  border: 2px solid gray;
+}
+
+.content1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: antiquewhite;
+}
+
+.content4 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: rgb(241, 144, 18);
+}
+
+.content6 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: rgb(18, 141, 241);
+}
+.content9 {
+  /* grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 3; */
+
+  /**Alternatif yol*/
+  grid-row: 4/6;
+  grid-column: 2/3;
+  background-color: aqua;
+}
+
+/**content6-7 ve 9-10 kısayol ile (area) birleştiriniz*/
+/*!  row_start / col_start / row_end / col_end */
+.content10 {
+  grid-area: 4 / 3 / span 2 / span 2;
+  background-color: cadetblue;
+}

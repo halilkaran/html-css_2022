@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-columns: 150px 300px 150px;
+  grid-template-rows: 100px 500px 100px;
+  gap: 10px 20px;
+}
+
+/** Tüm item'lar için ortak özellikler */
+.content {
+  border: 1px solid red;
+  background-color: thistle;
+}
+
+.content1 {
+  background-image: url(../img/logo.png);
+  background-size: cover;
+  background-position: center center;
+}
+.content4 {
+  overflow: auto;
+}
+.content8{
+   background-color: tomato;
+}
