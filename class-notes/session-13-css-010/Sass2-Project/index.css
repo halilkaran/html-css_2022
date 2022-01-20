@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: pink;
+  font-family: "tahoma";
+  font-size: 1.2rem;
+  color: white;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #30a7c3;
+}
+nav .brand img {
+  width: 80px;
+  border: 2px solid #af1d1d;
+  border-radius: 30%;
+  padding: 10px;
+  margin: 10px;
+}
+nav .navbar {
+  margin: 10px;
+}
+nav .navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+nav .navbar ul li a {
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  font-size: 19px;
+}
+nav .navbar ul li input {
+  width: 60px;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #cc6699;
+}
+.slider .left {
+  margin-top: 20px;
+}
+.slider .left button {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #30a7c3;
+  font-size: 19px;
+  border: 2px solid gray;
+}
+.slider img {
+  width: 30%;
+}
+
+.content .cards {
+  display: flex;
+}
+.content .cards .card1 {
+  background-color: brown;
+  color: white;
+  width: 25%;
+  height: 200px;
+  border: 2px solid #af1d1d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+.content .cards .card2 {
+  background-color: #c7ffc0;
+  color: blue;
+  width: 25%;
+  height: 200px;
+  border: 2px solid #af1d1d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+.content .cards .card3 {
+  background-color: blue;
+  color: gray;
+  width: 25%;
+  height: 200px;
+  border: 2px solid #af1d1d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+.content .cards .card4 {
+  background-color: green;
+  color: black;
+  width: 25%;
+  height: 200px;
+  border: 2px solid #af1d1d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+article {
+  display: flex;
+}
+article .article1, article .article2 {
+  width: 50%;
+  height: 200px;
+  background-color: gray;
+  border: 2px solid black;
+  border-radius: 10%;
+  padding: 10px;
+  margin: 2px;
+}
+article .article2 {
+  background-color: purple;
+}
+
+.socialBoxes {
+  display: flex;
+}
+.socialBoxes .social1 {
+  width: 20%;
+  height: 100px;
+  background-color: #4e4949;
+}
+.socialBoxes .social2 {
+  width: 20%;
+  height: 100px;
+  background-color: #5b5656;
+}
+.socialBoxes .social3 {
+  width: 20%;
+  height: 100px;
+  background-color: #686262;
+}
+.socialBoxes .social4 {
+  width: 20%;
+  height: 100px;
+  background-color: #766e6e;
+}
+.socialBoxes .social5 {
+  width: 20%;
+  height: 100px;
+  background-color: #837b7b;
+}
+
+/*# sourceMappingURL=index.css.map */

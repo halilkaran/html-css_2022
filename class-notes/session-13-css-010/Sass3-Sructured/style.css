@@ -1,0 +1,120 @@
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+}
+
+.content .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .cards .card1 {
+  background-color: brown;
+  color: white;
+  width: 25%;
+  height: 200px;
+  border: 2px solid #af1d1d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.content .cards .card2 {
+  background-color: #c7ffc0;
+  color: blue;
+  width: 25%;
+  height: 200px;
+  border: 2px solid #af1d1d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.content .cards .card3 {
+  background-color: blue;
+  color: gray;
+  width: 25%;
+  height: 200px;
+  border: 2px solid #af1d1d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.content .cards .card4 {
+  background-color: green;
+  color: black;
+  width: 25%;
+  height: 200px;
+  border: 2px solid #af1d1d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+}
+
+.content .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .cards .card1 {
+  background-color: brown;
+  color: white;
+  width: 25%;
+  height: 200px;
+  border: 2px solid #af1d1d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.content .cards .card2 {
+  background-color: #c7ffc0;
+  color: blue;
+  width: 25%;
+  height: 200px;
+  border: 2px solid #af1d1d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.content .cards .card3 {
+  background-color: blue;
+  color: gray;
+  width: 25%;
+  height: 200px;
+  border: 2px solid #af1d1d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.content .cards .card4 {
+  background-color: green;
+  color: black;
+  width: 25%;
+  height: 200px;
+  border: 2px solid #af1d1d;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+/*# sourceMappingURL=style.css.map */
