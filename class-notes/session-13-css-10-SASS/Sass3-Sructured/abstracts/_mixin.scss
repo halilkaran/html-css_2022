@@ -1,0 +1,33 @@
+@import 'variables', '../base/typograph';
+
+//*********************************************
+//! @MIXIN
+//*********************************************
+@mixin myBox($bgColor, $fontColor) {
+  background-color: $bgColor;
+  color: $fontColor;
+  width: 25%;
+  height: 200px;
+  border: $myBorder;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.content {
+  .cards {
+    display: flex;
+    .card1 {
+      @include myBox(brown, white);
+    }
+    .card2 {
+      @include myBox(rgb(199, 255, 192), blue);
+    }
+    .card3 {
+      @include myBox(blue, gray);
+    }
+    .card4 {
+      @include myBox(green, black);
+    }
+  }
+}

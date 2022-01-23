@@ -79,6 +79,10 @@ nav {
       background-color: $navBgColor;
       font-size: $myLinkSize;
       border: 2px solid gray;
+      &:hover {
+        background-color: pink;
+        border: 2px solid pink;
+      }
     }
   }
   img {
@@ -171,16 +175,31 @@ $textColor: #990000, #55004e, #0fa8a1, #121456, #64c217;
 //***********************************************
 
 $themeColors: (
-  Tahoma: rgb(196, 140, 149),
-  Arial: rgb(235, 16, 16),
-  Courier: rgb(228, 154, 18),
+  pink: rgb(196, 140, 149),
+  red: rgb(235, 16, 16),
+  orange: rgb(228, 154, 18),
 );
 
 @each $i, $color in $themeColors {
   body {
     &.#{$i} {
       background-color: $color;
-      font-family:$i ;
     }
+  }
+}
+
+//***********************************************
+//! IF-ELSE
+//************************************************
+
+$dark: 3;
+
+.footer {
+  @if $dark==1 {
+    background-color: white;
+  } @else if $dark==2 {
+    background-color: gray;
+  } @else {
+    background-color: green;
   }
 }

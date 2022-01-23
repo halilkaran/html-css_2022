@@ -59,6 +59,10 @@ nav .navbar ul li input {
   font-size: 19px;
   border: 2px solid gray;
 }
+.slider .left button:hover {
+  background-color: pink;
+  border: 2px solid pink;
+}
 .slider img {
   width: 30%;
 }
@@ -182,19 +186,20 @@ article .article2 {
   font-weight: 600;
 }
 
-body.Tahoma {
+body.pink {
   background-color: #c48c95;
-  font-family: Tahoma;
 }
 
-body.Arial {
+body.red {
   background-color: #eb1010;
-  font-family: Arial;
 }
 
-body.Courier {
+body.orange {
   background-color: #e49a12;
-  font-family: Courier;
+}
+
+.footer {
+  background-color: green;
 }
 
 /*# sourceMappingURL=index.css.map */

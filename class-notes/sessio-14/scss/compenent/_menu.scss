@@ -1,0 +1,10 @@
+nav{
+    text-align: right;
+    .menu-nav{
+        &__item {
+            display: inline;
+            padding-right: 1rem;
+
+        }
+    }
+}
