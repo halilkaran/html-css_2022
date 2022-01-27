@@ -1,0 +1,16 @@
+/* CAROUSEL ITEM */
+.navbar {
+  height: 15vh;
+}
+
+.carousel-item {
+  height: 85vh;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 1rem;
+}
+.carousel-caption {
+  position: absolute;
+  bottom: 4rem;
+}
