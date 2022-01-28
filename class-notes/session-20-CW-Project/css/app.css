@@ -1,0 +1,52 @@
+/*! ---------------------- 1- NAVBAR ----------------------------- */
+
+.navbar-light .navbar-nav .nav-link {
+  color: blueviolet;
+  font-size: 1.3rem;
+  font-weight: 700;
+  transition: all 1s;
+  color: rgb(59, 56, 56);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgb(59, 56, 56);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #bb2d3b;
+}
+
+/*! ---------------------- 2- CAROUSEL ----------------------------- */
+
+.carousel-item {
+  height: 850px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.carousel-caption .buttons .btn {
+  width: 7rem;
+}
+
+.carousel-caption {
+  top: 50%;
+}
+
+.carousel-caption h1 {
+  color: #dc3545;
+  font-weight: 500;
+  text-shadow: 2px 2px 2px black;
+}
+.carousel-caption p {
+  font-weight: 500;
+  text-shadow: 2px 2px 2px black;
+}
+.carousel-indicators {
+  height: 200px;
+}
+.carousel-indicators button {
+  background-color: #dc3545 !important;
+  height: 0.5rem !important;
+  width: 3rem !important;
+  margin-right: 0.7rem !important;
+}
