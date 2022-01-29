@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
 }
 
@@ -15,10 +16,15 @@ body {
 }
 
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #30a7c3;
 }
+
 nav .brand img {
   width: 80px;
   border: 2px solid #af1d1d;
@@ -26,31 +32,43 @@ nav .brand img {
   padding: 10px;
   margin: 10px;
 }
+
 nav .navbar {
   margin: 10px;
 }
+
 nav .navbar ul {
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 nav .navbar ul li a {
   text-decoration: none;
   padding: 5px;
   color: black;
   font-size: 19px;
 }
+
 nav .navbar ul li input {
   width: 60px;
 }
 
 .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   background-color: #cc6699;
 }
+
 .slider .left {
   margin-top: 20px;
 }
+
 .slider .left button {
   padding: 10px;
   border-radius: 10px;
@@ -59,17 +77,22 @@ nav .navbar ul li input {
   font-size: 19px;
   border: 2px solid gray;
 }
+
 .slider .left button:hover {
   background-color: pink;
   border: 2px solid pink;
 }
+
 .slider img {
   width: 30%;
 }
 
 .content .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .content .cards .card1 {
   background-color: brown;
   color: white;
@@ -80,6 +103,7 @@ nav .navbar ul li input {
   padding: 10px;
   margin: 10px;
 }
+
 .content .cards .card2 {
   background-color: #c7ffc0;
   color: blue;
@@ -90,6 +114,7 @@ nav .navbar ul li input {
   padding: 10px;
   margin: 10px;
 }
+
 .content .cards .card3 {
   background-color: blue;
   color: gray;
@@ -100,6 +125,7 @@ nav .navbar ul li input {
   padding: 10px;
   margin: 10px;
 }
+
 .content .cards .card4 {
   background-color: green;
   color: black;
@@ -112,8 +138,11 @@ nav .navbar ul li input {
 }
 
 article {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 article .article1, article .article2 {
   width: 50%;
   height: 200px;
@@ -123,33 +152,41 @@ article .article1, article .article2 {
   padding: 10px;
   margin: 2px;
 }
+
 article .article2 {
   background-color: purple;
 }
 
 .socialBoxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .socialBoxes .social1 {
   width: 20%;
   height: 100px;
   background-color: #2b2929;
 }
+
 .socialBoxes .social2 {
   width: 20%;
   height: 100px;
   background-color: #464141;
 }
+
 .socialBoxes .social3 {
   width: 20%;
   height: 100px;
   background-color: #605a5a;
 }
+
 .socialBoxes .social4 {
   width: 20%;
   height: 100px;
   background-color: #7a7373;
 }
+
 .socialBoxes .social5 {
   width: 20%;
   height: 100px;
@@ -201,5 +238,4 @@ body.orange {
 .footer {
   background-color: green;
 }
-
 /*# sourceMappingURL=index.css.map */
